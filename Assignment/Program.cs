@@ -81,6 +81,17 @@
             //Console.WriteLine(p1.x);    
             #endregion
 
+            //7 Write C# program that take two string variables and print them as one variable 
+            #region question7
+            //String str1 = "islam ";
+            //String str2 = "fawaz";
+            //String str3 = $"{str1}{str2}";
+            //Console.WriteLine($"combined string is {str3}");
+            #endregion
+
+
+
+
 
 
 
