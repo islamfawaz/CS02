@@ -11,9 +11,9 @@
         {
             //1 Write a program that allows the user to enter a number then print it.
             #region question1
-             int number = int.Parse(Console.ReadLine());
+             //int number = int.Parse(Console.ReadLine());
             
-            Console.WriteLine(number);
+            //Console.WriteLine(number);
             #endregion
             //2 Write C# program that Convert a string to an integer,
             //but the string contains non-numeric characters.And mention what will happen 
@@ -107,6 +107,30 @@
             //Console.WriteLine($"Interest is: {interest}");
 
             #endregion
+
+            //9 Write a program that calculates the Body Mass Index (BMI) given
+            //a person's weight in kilograms and height in meters The formula for BMI is
+            //BMI = (Weight) / (Height * Height)
+
+            #region question9
+            //decimal weight;
+            //decimal height;
+
+
+            //Console.WriteLine("input weight in kilograms:");
+            //weight = Convert.ToDecimal(Console.ReadLine());
+
+            //Console.WriteLine("input height in meters:");
+            //height = Convert.ToDecimal(Console.ReadLine());
+
+            //decimal bmi = weight / (height * height);
+
+            //Console.WriteLine($"BMI: {bmi}");
+
+            #endregion
+
+
+
 
 
 
