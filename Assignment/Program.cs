@@ -135,14 +135,43 @@
             //and anything else is "Just Good".
             #region question10
 
-            int temperature;
+            //int temperature;
 
-            Console.WriteLine("Enter the temperature in degrees Celsius:");
-            temperature = Convert.ToInt32(Console.ReadLine());
-            string tempertaureCateg = (temperature > 30) ? "Just Hot" : (temperature < 10) ? "Just Cold" : "Just Good";
-            Console.WriteLine($"The temperature {temperature}°C is {tempertaureCateg}.");
+            //Console.WriteLine("Enter the temperature in degrees Celsius:");
+            //temperature = Convert.ToInt32(Console.ReadLine());
+            //string tempertaureCateg = (temperature > 30) ? "Just Hot" : (temperature < 10) ? "Just Cold" : "Just Good";
+            //Console.WriteLine($"The temperature {temperature}°C is {tempertaureCateg}.");
 
             #endregion
+
+            //11Write a program that takes the date from user and displays it in various formats using string interpolation.
+            // Ex:
+            //   Today’s date : 20 , 11 , 2001
+            //  Today's date : 20 / 11 / 2001
+            // Today's date : 20 – 11 – 2001
+
+
+
+            #region question11
+            //Console.WriteLine("Enter a date (format: DD MM YYYY):");
+            //string input = Console.ReadLine();
+            //string[] cuts = input.Split(' ');
+            //int day = int.Parse(cuts[0]);
+            //int month = int.Parse(cuts[1]);
+            //int year = int.Parse(cuts[2]);
+
+            //Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            //Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            //Console.WriteLine($"Today's date: {day} - {month} - {year}");
+
+            #endregion
+
+
+
+
+
+
+
 
 
 
