@@ -40,6 +40,14 @@
             #endregion
 
 
+            //4 Write C# program that Extract a substring from a given string.
+            #region question4
+            //String inputString = "islam fawaz";
+            //int length = 6;
+            //int startIndex = 5;
+            //string subString = inputString.Substring(startIndex, length);
+            //Console.WriteLine(subString);                                                                  
+            #endregion
 
 
 
