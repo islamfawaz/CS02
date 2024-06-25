@@ -50,6 +50,19 @@
             #endregion
 
 
+            //5 Write C# program that Assigning one value type variable to another
+            //and modifying the value of one variable and mention what will happen
+            #region question5
+            //int x=6;//clr will allocate 4 bytes at stack by 6
+            //int y = 7; //clr will allocate 4 bytes at stack by 7
+            //y = x;
+            //x++;
+            //Console.WriteLine(y);
+            #endregion
+
+
+
+
 
         }
     }
