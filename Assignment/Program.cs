@@ -11,8 +11,8 @@
         {
             //1 Write a program that allows the user to enter a number then print it.
             #region question1
-             //int number = int.Parse(Console.ReadLine());
-            
+            //int number = int.Parse(Console.ReadLine());
+
             //Console.WriteLine(number);
             #endregion
             //2 Write C# program that Convert a string to an integer,
@@ -128,6 +128,23 @@
             //Console.WriteLine($"BMI: {bmi}");
 
             #endregion
+
+            //Write a program that uses the ternary operator to check if the temperature is too hot,
+            //too cold, or just good. Assign the result in variable then display the result.
+            //Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot",
+            //and anything else is "Just Good".
+            #region question10
+
+            int temperature;
+
+            Console.WriteLine("Enter the temperature in degrees Celsius:");
+            temperature = Convert.ToInt32(Console.ReadLine());
+            string tempertaureCateg = (temperature > 30) ? "Just Hot" : (temperature < 10) ? "Just Cold" : "Just Good";
+            Console.WriteLine($"The temperature {temperature}°C is {tempertaureCateg}.");
+
+            #endregion
+
+
 
 
 
