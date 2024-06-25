@@ -61,6 +61,28 @@
             #endregion
 
 
+            //6 Write C# program that Assigning one reference type variable to another
+            //and modifying the object through one variable and mention what will happen
+
+            #region question6
+            //point p1; //declare reference type point refer to null 
+            //          //this reference p1 refer object from type point
+            //          //clr allocate 4 bytes in refer at stack
+            //          //clr allocate 0 bytes in refer at heap
+
+            //p1 = new point(); //allocate no of bytes in heap
+            //                  //iniialize with defult value
+            //                  //call constructor if exist
+            //                  //assign reference to allocated object
+            //point p2;
+            //p2 = new point();
+            //p2 = p1;
+            //p2.x = 10;
+            //Console.WriteLine(p1.x);    
+            #endregion
+
+
+
 
 
 
