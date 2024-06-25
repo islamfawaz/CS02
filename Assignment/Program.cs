@@ -178,6 +178,9 @@
 
 
 
+           //14 Which of the following is the correct output for the C# code given below?
+
+      //     Console.WriteLine(13 / 2 + " " + 13 % 2); //6 1
 
 
 
