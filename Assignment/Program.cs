@@ -30,6 +30,19 @@
             //}
             #endregion
 
+            // 3 Write C# program that Perform a simple arithmetic operation with floating-point numbers
+            // And mention what will happen
+            #region question3
+            //float num1=0.3f;
+            //float num2=0.7f;
+            //float result = num1 + num2;
+            //Console.WriteLine(result);
+            #endregion
+
+
+
+
+
         }
     }
 }
